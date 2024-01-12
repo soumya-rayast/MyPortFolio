@@ -1,0 +1,311 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 22px;
+    align-items: center;
+    background-color: black;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+}
+nav:hover{
+    box-shadow: 10px 10px 20px rgba(48, 165, 59, 0.5);
+}
+ul {
+    display: flex;
+    align-items: center;
+
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+    margin-inline: 22px;
+}
+
+ul li a:hover {
+    color: green;
+    border-bottom: 2px solid green;
+    transition: .6s ease-out;
+}
+
+#bar {
+    display: none;
+}
+
+.logo {
+    font-size: 22px;
+    cursor: pointer;
+    text-shadow: 10px 8px 10px rgba(48, 165, 59, 0.5);
+}
+.logo span {
+    color: green;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    margin-top: 195px;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    margin-bottom: 125px;
+
+}
+
+.mainText {
+    font-size: 40px;
+}
+
+.mainText h1 span {
+    color: green;
+}
+
+
+.mainText h3 {
+    font-size: 28px
+}
+
+.mainText p {
+    font-size: 30px
+}
+
+.mainText .icons i {
+    padding: 5px;
+    margin-top: 10px;
+    color: green;
+    cursor: pointer;
+}
+
+.mainText .icons i:hover {
+    color: white;
+}
+
+.mainText button {
+    width: 180px;
+    height: 40px;
+    background-color: green;
+    font-size: 19px;
+    border: none;
+    color: white;
+    margin-top: 24px;
+    border-radius: 8px;
+}
+
+.mainText button i {
+    padding: 5px;
+}
+
+.mainText button:hover {
+    border: 2px solid green;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.main img{
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0px 0px 20px rgba(48, 165, 59, 0.5);
+    margin: 18px;
+}
+
+
+.head {
+    text-align: center;
+    padding: 60px;
+    font-size: 25px;
+}
+
+.head span {
+    color: green;
+}
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    margin-bottom: 60px;
+    background-color: rgb(30, 40, 29);
+    font-size: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.about img {
+    width: 300px;
+    height: 400px;
+    border-radius: 50%;
+    border: 4px solid green;
+    margin-inline: 55px;
+    margin-bottom: 20px;
+    flex:1;
+}
+.aboutText{
+    flex: 2;
+}
+.aboutText p {
+    margin-top: 10px;
+}
+
+.aboutText h2 span {
+    color: green;
+}
+
+.aboutText p span {
+    color: rgb(134, 159, 140);
+}
+
+.aboutText h2 {
+    font-size: 34px;
+}
+
+.service {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 300px;
+    padding: 25px;
+    background-color: rgb(66, 64, 62);
+    margin-inline: 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    margin-top: 12px;
+}
+
+.card i {
+    font-size: 30px;
+}
+
+.mywork {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.mywork .workCard {
+    width: 300px;
+    height: 310px;
+    background-color: rgb(66, 64, 62);
+    border-radius: 5px;
+    margin-inline: 20px;
+    padding: 11px;
+    margin-bottom: 10px;
+}
+
+.workCard img {
+    width: 100%;
+    height: 200px;
+}
+
+.workCard p {
+    margin-top: 11px;
+}
+
+.workCard a {
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    margin-top: 20px;
+    padding: 6px 12px;
+    background-color: green;
+}
+
+.contact {
+    width: 500px;
+    padding: 25px;
+    background-color: rgb(66, 64, 62);
+    margin: auto;
+    border-radius: 10px;
+}
+
+.contact input {
+    width: 90%;
+    padding: 5px;
+    font-size: 17px;
+    border: 1px soild white;
+    background-color: transparent;
+    color: white;
+    margin-top: 3px;
+
+}
+
+.contact p {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.contact button {
+    width: 90px;
+    height: 28px;
+    background-color: green;
+    color: white;
+    font-size: 17px;
+    border: none;
+    margin-top: 22px;
+    border-radius: 8px;
+}
+.contact button:hover{
+    background-color: transparent;
+    border: 2px solid green;
+}
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 35px;
+    margin-top: 66px;
+    background-color: rgb(30, 40, 29);
+
+}
+
+.text h3 {
+    font-size: 30px;
+}
+
+.text p {
+    margin-top: 12px;
+}
+
+.text i {
+    font-size: 17px;
+}
+
+.text a {
+    text-decoration: none;
+    color: white;
+}
+
+.text a i {
+    padding: 5px 10px;
+}
+
+.contactf p i {
+    padding: 5px 10px;
+    margin: 2px;
+}
+
+/* 43 */
