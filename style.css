@@ -290,6 +290,8 @@ ul li a:hover {
     background-color: transparent;
     color: white;
     margin-top: 3px;
+    border-radius: 50px;
+    text-align: left;
 
 }
 
@@ -482,8 +484,8 @@ ul li a:hover {
     }
 
     .main img {
-        width: 350px;
-        height: 350px;
+        width: 300px;
+        height: 300px;
     }
 
     .mainText p {
@@ -520,7 +522,7 @@ ul li a:hover {
         font-size: 20px;
     }
     .about img {
-        width: 200px;
+        width: 300px;
         height: 300px;
 
     }
